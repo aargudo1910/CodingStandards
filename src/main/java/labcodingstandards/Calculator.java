@@ -1,19 +1,19 @@
-//
-//
+// Copyright (C) 2020
+// All rights reserved
 
 package labcodingstandards;
 
 import java.util.Scanner;
 
 /**
- * @author
+ * @author Angie
  *
  */
 public class Calculator{
 	/**
 	 * @param args
 	 */
-	public static final void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner reader = new Scanner(System.in);
 		System.out.print("1. +\n2. -\n3. *\n4. /\nEnter an operator: ");
 		char operator = reader.nextLine().charAt(0);
@@ -52,9 +52,9 @@ public class Calculator{
 	 * @param first
 	 * @param second
 	 * @param operator
-	 * @return
+	 * @return return result of the operation
 	 */
-	private String operation(double first, double second, char operator) {
+	private String operation(final double first, final double second, final char operator) {
 		double result = 0;
 		switch (operator) {
 		case '1':
