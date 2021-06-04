@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\Desarrollo\Documents\Angie\Espol\7s\Ingeniería de Sotware 2\codingStandardsArgudo\src\main\java\labcodingstandards\Calculator.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;// Copyright (C) 2020&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.HeaderCheck"/>
+<error line="12" severity="error" message="Type Javadoc comment is missing @author tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="57" severity="error" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>
